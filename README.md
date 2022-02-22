@@ -2,7 +2,7 @@
 
 ## About
 
-A property search application completed via Manchester Codes.
+A Single Page Application created to be able to search for different properties that have been populated using an API. Completed via Manchester Codes.
 
 ## Testing
 
