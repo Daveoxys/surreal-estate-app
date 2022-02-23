@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
 body {
   font-family: "Baloo Bhai 2", cursive;
-  background-color: rgb(184, 184, 184);
+  font-size: 20px;
+  background-color: rgba(43, 0, 28, 0.384);
   margin: 0%;
   padding: 0%;
 }

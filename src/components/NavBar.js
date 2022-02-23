@@ -14,7 +14,7 @@ const NavBar = () => {
           alt="surreal-logo"
         />
         <Link to="/" className="navbar-links-item">
-          View Property
+          View Properties
         </Link>
         <Link to="/add-property" className="navbar-links-item">
           Add a Property
