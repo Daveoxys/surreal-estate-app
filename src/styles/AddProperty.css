@@ -1,4 +1,63 @@
 .add-property {
-  padding-top: auto;
-  margin-left: 10px;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addproperty-form {
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(43, 0, 28, 0.212);
+  border-radius: 20px;
+  box-shadow: 5px, 5px, 2px rgba(43, 0, 28, 0.979);
+  margin-top: 15px;
+}
+
+.add-property-form__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  align-self: center;
+  padding: 10px;
+  width: 35%;
+  margin-top: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+button:active {
+  background-color: rgba(0, 255, 0, 0.603);
+  box-shadow: 3px 3px 3px rgba(66, 67, 66, 0.055);
+  transform: translateY(5px);
+}
+
+label {
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  width: 35%;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+select {
+  width: 35.8%;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
 }
