@@ -1,4 +1,8 @@
 .properties {
   padding-top: auto;
   margin-left: 10px;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center;
 }

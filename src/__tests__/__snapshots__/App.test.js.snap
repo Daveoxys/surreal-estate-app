@@ -4,6 +4,40 @@ exports[`App renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="App"
-  />
+  >
+    <div
+      class="navbar"
+    >
+      <ul
+        class="navbar-links"
+      >
+        <img
+          alt="surreal-logo"
+          class="navbar-logo"
+          data-testid="logo"
+          src="logo.png"
+        />
+        <a
+          class="navbar-links-item"
+          href="/"
+        >
+          View Properties
+        </a>
+        <a
+          class="navbar-links-item"
+          href="/add-property"
+        >
+          Add a Property
+        </a>
+      </ul>
+    </div>
+    <div
+      class="properties"
+    >
+      <p>
+        Properties Page
+      </p>
+    </div>
+  </div>
 </DocumentFragment>
 `;
